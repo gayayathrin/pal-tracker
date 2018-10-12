@@ -15,6 +15,10 @@ public class TimeEntryInfoContributor implements InfoContributor {
     public void contribute(Info.Builder builder) {
         builder.withDetail("example",
                 Collections.singletonMap("author", "gayasavi"));
+        /*
+        builder.withDetail("build",
+                Collections.singletonMap("version", "1.0"));
+        */
 
     }
 }
